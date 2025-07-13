@@ -14,5 +14,5 @@ readme = "README.md"
 [dependencies]
 thiserror = "2.0"
 async-trait = "0.1"
-rocket = "0.5"
+rocket = { git = "https://github.com/rwf2/Rocket", branch = "master" }
 libservices_codegen = { path = "../libservices_codegen" }

@@ -25,4 +25,4 @@ devise = "0.4"
 [dev-dependencies]
 trybuild = "1"
 libservices = { path = "../libservices" }
-rocket = "0.5"
+rocket = { git = "https://github.com/rwf2/Rocket", branch = "master" }
